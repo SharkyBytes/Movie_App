@@ -1,0 +1,17 @@
+.movie-credits__container {
+  background: #f5f6fa;
+  color: black;
+  padding: 0.5rem;
+}
+
+.movie-credits__actors__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-credits__actors__container::after {
+  content: "";
+  flex: auto;
+}

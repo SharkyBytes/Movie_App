@@ -1,0 +1,37 @@
+.movie-recommendations__container {
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.movie-recommendations__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffa801;
+  margin-left: 0.5rem;
+}
+
+.movie-recommendationsList_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movie-recommendationsList_container::after {
+  content: "";
+  flex: auto;
+}
+
+.movie-recommendationsList_container > .moviecard__container {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-recommendationsList_container {
+    justify-content: center !important;
+  }
+  .movie-recommendationsList_container::after {
+    content: "";
+    flex: none;
+  }
+}

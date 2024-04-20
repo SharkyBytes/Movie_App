@@ -1,0 +1,53 @@
+.actor {
+  display: flex;
+  flex-direction: column;
+  background: #e1e1e1;
+  margin: 0.5rem;
+  width: 150px;
+  word-wrap: break-word;
+}
+
+.actor > img {
+  width: 150px;
+}
+
+.movie-credits__actors {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffa801;
+  margin-left: 0.5rem;
+}
+
+.actor-name-character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.actor-name-character > p {
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-credits__actors__container {
+    justify-content: center !important;
+  }
+
+  .actor {
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .movie-credits__actors__container {
+    justify-content: center !important;
+  }
+
+  .actor {
+    margin-right: 1.5rem;
+  }
+}

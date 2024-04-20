@@ -1,0 +1,12 @@
+.watchlist-title {
+  color: #ffa801;
+}
+
+.movies__containerminusfive {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.movies__containerminusfive > div {
+  margin-right: 1.5rem;
+}

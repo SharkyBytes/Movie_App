@@ -1,0 +1,18 @@
+.signin-btn__container {
+  display: flex;
+  justify-content: flex-end;
+  flex: auto;
+}
+
+.btn-danger {
+  font-weight: 600;
+  background: #ee9b02;
+}
+.btn-danger:hover {
+  background: #d18d0f;
+}
+.btn-danger:focus {
+  outline: 0;
+  background: #d18d0f;
+  box-shadow: 0 0 0 0.2rem rgba(224, 100, 18, 0.5);
+}

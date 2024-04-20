@@ -1,0 +1,16 @@
+.signin__container {
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.signin-h1 {
+  color: #ffa801;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.create-account-btn {
+  font-weight: bold;
+  cursor: pointer;
+}
